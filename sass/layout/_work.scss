@@ -1,0 +1,30 @@
+.section--no-padding-top {
+	padding-top: 0;
+}
+
+.work-list {
+	display: flex;
+	margin-left: -30px;
+}
+
+.work-list__item {
+	width: calc(100% / 3 - 30px);
+	margin-left: 30px;
+	position: relative;
+}
+
+.work-list__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background: rgba(47, 48, 58, 0.8);
+	color: var(--white-colore);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+}

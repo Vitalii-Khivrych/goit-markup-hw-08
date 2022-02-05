@@ -1,0 +1,35 @@
+.socials {
+	display: flex;
+	justify-content: center;
+}
+
+.socials__item {
+	& + & {
+		margin-left: 10px;
+	}
+} 
+
+.socials__link {
+	width: 44px;
+	height: 44px;
+	color: var(--icons-colore);
+	background: var(--white-colore);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	cursor: pointer;
+	position: relative;
+	transition-property: background-color, color;
+	transition-duration: var(--transition-duration);
+	transition-timing-function: var(--transition-timing);
+	&:hover,
+	&:focus {
+		background-color: var(--active-colore);
+		color: var(--white-colore);
+	}
+}
+
+.socials__icons {
+	fill: currentColor;
+}
