@@ -27,6 +27,11 @@
 		transform: translateX(0);
 		transition: transform 500ms, visibility 500ms ease-in-out;
 	}
+	.is-hidden-menu {
+		opacity: 0;
+		pointer-events: none;
+		visibility: hidden;
+	}
 
 	.menu-close-btn {
 		border: none;
