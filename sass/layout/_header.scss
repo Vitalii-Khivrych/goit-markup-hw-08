@@ -16,17 +16,12 @@
 	@include tab {
 		display: flex;
 		flex-direction: row;
-		margin-left: auto;
+		margin-left: 88px;
 		align-items: center;
-	}
-}
-
-.heaed-nav {
-	@include tab {
-		margin-right: 84px;
+		width: 100%;
 	}
 	@include desk {
-		margin-right: 305px;
+		margin-left: 93px;
 	}
 }
 
@@ -67,12 +62,10 @@
 
 .header-contact {
 	@include tab {
-		display: flex;
 		margin-left: auto;
-		flex-direction: column;
 	}
 	@include desk {
-		flex-direction: row;
+		display: flex;
 	}
 }
 
