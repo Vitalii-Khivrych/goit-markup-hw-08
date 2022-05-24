@@ -341,6 +341,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+  position: relative;
 }
 
 @media screen and (min-width: 480px) {
@@ -356,7 +357,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    min-width: 528px;
     min-height: 581px;
   }
 }

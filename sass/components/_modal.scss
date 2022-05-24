@@ -22,6 +22,7 @@
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	padding: 40px;
+	position: relative;
 
 	@include mob {
 		width: 450px;
@@ -32,7 +33,7 @@
 		transition: transform 500ms;
 	}
 	@include desk {
-		width: 528px;
+		min-width: 528px;
 		min-height: 581px;
 	}
 }
